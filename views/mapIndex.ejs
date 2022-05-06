@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>ArcGIS API for JavaScript Tutorials: Display a map</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>PM2.5 Map</h1>
+    </div>
+    <br />
+
+    <p>Visualize all Points</p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="all" />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>
+      Given a year_input from the user, visualize all the city points of all
+      countries..
+    </p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="a" />
+      <input
+        name="year"
+        type="text"
+        placeholder="year
+      "
+      />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>Visualize the 50 closest city points to Bangkok.</p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="b" />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>
+      Visualize all the city points of Thailands neighboring countries.
+    </p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="c" />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>
+      Visualize the four points of MBR covering all city points in Thailand.
+    </p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="d" />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>
+      Visualize all city points of countries having the highest no. of city
+      points in 2011.
+    </p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="e" />
+      <button type="submit">View Map</button>
+    </form>
+
+    <p>
+      Given a year_input from the user, visualize all the city points which are
+      considered as “low income”
+    </p>
+    <form action="/map/mapView" method="get">
+      <input type="hidden" name="no" value="f" />
+      <input
+        name="year"
+        type="text"
+        placeholder="year
+      "
+      />
+      <button type="submit">View Map</button>
+    </form>
+  </body>
+</html>
+
+<style>
+  body {
+    padding: 2rem;
+  }
+</style>

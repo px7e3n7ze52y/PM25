@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>File</title>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <h1>File CSV PM25</h1>
+    </div>
+
+    <br />
+
+    <h2>Upload CSV File</h2>
+    <form
+      action="/file/uploadCSVfile"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input name="file" type="file" />
+      <button type="submit">Upload</button>
+    </form>
+
+    <br />
+
+    <h2>Download CSV File</h2>
+
+    <p>
+      List country and city names whose PM 2.5 values are greater than 50 in
+      2015.
+    </p>
+    <form action="/file/downloadNo4A" method="get">
+      <button type="submit">Download</button>
+    </form>
+
+    <p>
+      Calculate the AVG(PM 2.5) by country (show the results in a decreasing
+      order).
+    </p>
+    <form action="/file/downloadNo4B" method="get">
+      <button type="submit">Download</button>
+    </form>
+
+    <p>
+      Given a country_input from the user, show a historical PM 2.5 values by
+      year.
+    </p>
+
+    <form action="/file/downloadNo4C" method="get">
+      <input
+        name="country"
+        type="text"
+        placeholder="country
+  "
+      />
+      <button type="submit">Download</button>
+    </form>
+
+    <p>
+      List country and city names whose PM 2.5 values are greater than 50 in
+      2015.
+    </p>
+    <form action="/file/downloadNo4D" method="get">
+      <input
+        name="year"
+        type="text"
+        placeholder="year
+        "
+      />
+      <input
+        name="colorpm25"
+        type="text"
+        placeholder="color_pm25
+        "
+      />
+      <button type="submit">Download</button>
+    </form>
+  </body>
+</html>
+
+<style>
+  body {
+    padding: 2rem;
+  }
+</style>

@@ -1,0 +1,15 @@
+country,city,Year,pm25,latitude,longitude,population,wbinc16_text,Region,conc_pm25,color_pm25
+Albania,Tirana,2013,16.06236628,41.33026886,19.82177162,453509,Upper middle income,Europe (LMIC),15-<25,orange
+Albania,Durres,2015,11.89351847,41.3199,19.4492,113249,Upper middle income,Europe (LMIC),10-<15,yellow
+Albania,Durres,2016,14.29827251,41.3199,19.4492,113249,Upper middle income,Europe (LMIC),10-<15,yellow
+Albania,Korce,2015,30.34333976,40.62593,20.78018,51152,Upper middle income,Europe (LMIC),25-<35,darkorange
+Albania,Korce,2016,28.61583069,40.62593,20.78018,51152,Upper middle income,Europe (LMIC),25-<35,darkorange
+Albania,Vlore,2014,10.27975425,40.40309,19.4862,79513,Upper middle income,Europe (LMIC),10-<15,yellow
+Albania,Vlore,2015,13.06917568,40.40309,19.4862,79513,Upper middle income,Europe (LMIC),10-<15,yellow
+Albania,Vlore,2016,15.29752101,40.40309,19.4862,79513,Upper middle income,Europe (LMIC),15-<25,orange
+Albania,Vrith,2015,13.23632112,42.3139,19.52342,79513,Upper middle income,Europe (LMIC),10-<15,yellow
+Andorra,Escaldes-Engordany,2012,18.32047414,42.509694,1.539138,37466.87891,High income,Europe (HIC),15-<25,orange
+Andorra,Escaldes-Engordany,2014,11,42.509694,1.539138,37466.87891,High income,Europe (HIC),10-<15,yellow
+Andorra,Escaldes-Engordany,2015,11.3,42.509694,1.539138,37466.87891,High income,Europe (HIC),10-<15,yellow
+Andorra,Escaldes-Engordany,2016,11.5,42.509694,1.539138,37466.87891,High income,Europe (HIC),10-<15,yellow
+Andorra,Escaldes-Engordany,2017,10.3,42.509694,1.539138,37466.87891,High income,Europe (HIC),10-<15,yellow
