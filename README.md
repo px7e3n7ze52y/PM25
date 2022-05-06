@@ -3,4 +3,6 @@ Spatial DB &amp; GIS
 
 npm start
 
-http://localhost:3000/map/mapIndex
+4) http://localhost:3000/map/mapIndex
+
+5) http://localhost:3000/file/uploadView
